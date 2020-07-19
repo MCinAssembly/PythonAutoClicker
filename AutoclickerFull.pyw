@@ -22,10 +22,10 @@ def processInputs(start_key, stop_key, exit_key, thread_count, threads):
                 if event.key == ord(start_key):
                     startThreads(thread_count, threads)
                 if event.key == ord(stop_key):
-                    killThreads(thread_count, threads)
+                    killThreads()
                     resetThreads(thread_count, threads)
                 if event.key == ord(exit_key):
-                    killThreads(thread_count, threads)
+                    killThreads()
                     exit()
 
 
@@ -34,14 +34,12 @@ def readEntries():
     stop_key = stop_entry.get()
     exit_key = exit_entry.get()
     thread_count = int(threads_entry.get())
-
     return start_key, stop_key, exit_key, thread_count
 
 
-def killThreads(thread_count, threads):
+def killThreads():
     global stop_threads
     stop_threads = True
-
 
 
 def clicker():
@@ -79,7 +77,7 @@ def mainProgram():
                     
 
 root = tkinter.Tk()
-threads_label = tkinter.Label(root, text="Threads to start (10CPS)")
+threads_label = tkinter.Label(root, text="Thread Count (7.5CPS)")
 threads_label.grid(row=0, column=0)
 
 threads_entry = tkinter.Entry(root)
