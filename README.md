@@ -2,6 +2,8 @@
 An Auto Clicker made in python, can achieve 10CPS per thread, but it mostly depends on the speed of your computer.
 I recommend having around 2 threads (20CPS in AutoClickerFast) to minimize CPU usage.
 
+AutoClickerHook listens for keystrokes in the background to start/stop/close by using keyboard hooks, I recommend against using it unless you really have to
+
 INFO: AutoClickerFast currently has a band-aid fix to delaying the start for 3s, as to prevent the start button from being spammed, I am currently working on a more elegant solution to this.
 
 # Features
