@@ -42,7 +42,6 @@ def mainProgram():
     global threads
     global thread_count
     thread_count = int(threads_entry.get())
-    print(thread_count)
     if (len(threads)) == 0:
         createThreads(thread_count, threads)        
     else:
@@ -52,7 +51,7 @@ def mainProgram():
                            
 
 root = tkinter.Tk()
-threads_label = tkinter.Label(root, text="Thread Count (10CPS)")
+threads_label = tkinter.Label(root, text="Thread Count 10CPS/T")
 threads_label.grid(row=0, column=0)
 
 threads_entry = tkinter.Entry(root)
@@ -65,8 +64,3 @@ stop_button = tkinter.Button(root, text="Stop Clicking", command=killThreads, pa
 stop_button.grid(row=1, column=2)
 
 root.mainloop()
-        
-    
-    
-
-        
