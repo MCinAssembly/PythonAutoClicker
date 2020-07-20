@@ -11,9 +11,9 @@ I recommend having around 2 threads (20CPS in AutoClickerFast) to minimize CPU u
 # Known Issues
 
 AutoClickerFull Only:
-Will only register keypresses if the pygame window is in the foreground
-Suffers From reduced CPS, roughly 7.5 as opposed to 10 in AutoClickerFast
+- Will only register keypresses if the pygame window is in the foreground
+- Suffers From reduced CPS, roughly 7.5 as opposed to 10 in AutoClickerFast
 
 Both:
-CPU usage can become very high wth many threads, 10+ usually. Doesn't seem like something which could be fixed.
+- CPU usage can become very high wth many threads, 10+ usually. Doesn't seem like something which could be fixed.
 
