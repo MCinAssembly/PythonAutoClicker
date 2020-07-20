@@ -30,6 +30,8 @@ INFO: AutoClickerFast currently has a band-aid fix to delaying the start for 3s,
 
 AutoClickerFull Only:
 - Will only register keypresses if the pygame window is in the foreground
+
+AutoClickerHooks & AutoClickerFull:
 - Suffers From reduced CPS, roughly 7.5 as opposed to 10 in AutoClickerFast
 
 All:
