@@ -4,9 +4,9 @@ I recommend having around 2 threads (20CPS in AutoClickerFast) to minimize CPU u
 
 # Dependencies
 
-pygame (AutoClickerFull only) ```pip install pygame```
-Threading.py https://github.com/python/cpython/blob/3.8/Lib/threading.py
-pyautogui ```pip install pyautogui```
+- pygame (AutoClickerFull only) ```pip install pygame```
+- Threading.py https://github.com/python/cpython/blob/3.8/Lib/threading.py
+- pyautogui ```pip install pyautogui```
 
 # Known Issues
 
