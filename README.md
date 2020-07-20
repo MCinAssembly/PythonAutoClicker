@@ -32,6 +32,6 @@ AutoClickerFull Only:
 - Will only register keypresses if the pygame window is in the foreground
 - Suffers From reduced CPS, roughly 7.5 as opposed to 10 in AutoClickerFast
 
-Both:
+All:
 - CPU usage can become very high wth many threads, 10+ usually. Doesn't seem like something which could be fixed.
 
