@@ -18,6 +18,7 @@ INFO: AutoClickerFast currently has a band-aid fix to delaying the start for 3s,
 
 # Dependencies
 
+- Release EXE has no dependencies
 - pygame (AutoClickerFull only) ```pip install pygame```
 - Threading.py https://github.com/python/cpython/blob/3.8/Lib/threading.py
 - pyautogui ```pip install pyautogui```
