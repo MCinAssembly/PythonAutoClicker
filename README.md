@@ -16,7 +16,7 @@ INFO: AutoClickerFast currently has a band-aid fix to delaying the start for 3s,
 - Hidden Console
 
 
-*The more threads you make the less stable it becomes depending on your computer's performance*
+*The more threads you make the less stable it becomes depending on your computer's performance. Multi-threading will be removed from AutoClickerHooks in the future in favour of a high performance single thread system*
 
 # Dependencies
 
